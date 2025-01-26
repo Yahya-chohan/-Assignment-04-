@@ -39,7 +39,7 @@ function submit() {
 
    
 
-    if (generatedOtp == otp && pass.length <= 7 && email.match(emailPattern)) {
+    if (generatedOtp == otp && pass.length <= 7 && email.match(emailPattern) && testt.length <= 10) {
         console.log("ok");
         document.getElementById("formsubmit").innerText = "form submission successful";
     } else {
